@@ -4,3 +4,5 @@
 !/**/nbproject/*.xml
 /**/dist/*
 /**/.generated_files/*
+/**/queuelogs/*
+*.yml

@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64du32-cnano-usb-hid-matrix-keypad-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "USB HID Matrix Keypad with AVR DU",
         "projectName": "avr64du32-cnano-usb-hid-matrix-keypad-mplab-mcc",
-        "shortDescription": "This example shows how to code and make custom settings for a matrix keypad using the USB Human Interface Device (HID) class on the AVR DU microcontroller.\r\n\r\n\r\n\r\n",
+        "shortDescription": "This code example demonstrates how to set up and make custom settings for a matrix keypad using the USB Human Interface Device (HID) class on the AVR DU microcontroller.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.20.0"
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.4.286"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.7.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,19 @@
             }
         },
         "author": "Rebekka Alve",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "USB",
+            "RTC",
+            "VREF",
+            "AC"
+        ],
+        "keywords": [
+            "USB",
+            "HID",
+            "Button",
+            "Communication",
+            "Keyboard"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
